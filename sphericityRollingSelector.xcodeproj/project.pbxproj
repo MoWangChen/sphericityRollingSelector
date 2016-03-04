@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDC429EC1C89A9DA0098451E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC429EB1C89A9DA0098451E /* main.m */; };
+		DDC429EF1C89A9DA0098451E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC429EE1C89A9DA0098451E /* AppDelegate.m */; };
+		DDC429F21C89A9DA0098451E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC429F11C89A9DA0098451E /* ViewController.m */; };
+		DDC429F51C89A9DA0098451E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC429F31C89A9DA0098451E /* Main.storyboard */; };
+		DDC429F71C89A9DA0098451E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC429F61C89A9DA0098451E /* Assets.xcassets */; };
+		DDC429FA1C89A9DA0098451E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC429F81C89A9DA0098451E /* LaunchScreen.storyboard */; };
+		DDC42A051C89A9DA0098451E /* sphericityRollingSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC42A041C89A9DA0098451E /* sphericityRollingSelectorTests.m */; };
+		DDC42A101C89A9DA0098451E /* sphericityRollingSelectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC42A0F1C89A9DA0098451E /* sphericityRollingSelectorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDC42A011C89A9DA0098451E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC429DF1C89A9DA0098451E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC429E61C89A9DA0098451E;
+			remoteInfo = sphericityRollingSelector;
+		};
+		DDC42A0C1C89A9DA0098451E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC429DF1C89A9DA0098451E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC429E61C89A9DA0098451E;
+			remoteInfo = sphericityRollingSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDC429E71C89A9DA0098451E /* sphericityRollingSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sphericityRollingSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC429EB1C89A9DA0098451E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDC429ED1C89A9DA0098451E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDC429EE1C89A9DA0098451E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDC429F01C89A9DA0098451E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDC429F11C89A9DA0098451E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDC429F41C89A9DA0098451E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDC429F61C89A9DA0098451E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC429F91C89A9DA0098451E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDC429FB1C89A9DA0098451E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC42A001C89A9DA0098451E /* sphericityRollingSelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sphericityRollingSelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC42A041C89A9DA0098451E /* sphericityRollingSelectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sphericityRollingSelectorTests.m; sourceTree = "<group>"; };
+		DDC42A061C89A9DA0098451E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC42A0B1C89A9DA0098451E /* sphericityRollingSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sphericityRollingSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC42A0F1C89A9DA0098451E /* sphericityRollingSelectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sphericityRollingSelectorUITests.m; sourceTree = "<group>"; };
+		DDC42A111C89A9DA0098451E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC429E41C89A9DA0098451E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC429FD1C89A9DA0098451E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC42A081C89A9DA0098451E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC429DE1C89A9DA0098451E = {
+			isa = PBXGroup;
+			children = (
+				DDC429E91C89A9DA0098451E /* sphericityRollingSelector */,
+				DDC42A031C89A9DA0098451E /* sphericityRollingSelectorTests */,
+				DDC42A0E1C89A9DA0098451E /* sphericityRollingSelectorUITests */,
+				DDC429E81C89A9DA0098451E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC429E81C89A9DA0098451E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC429E71C89A9DA0098451E /* sphericityRollingSelector.app */,
+				DDC42A001C89A9DA0098451E /* sphericityRollingSelectorTests.xctest */,
+				DDC42A0B1C89A9DA0098451E /* sphericityRollingSelectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC429E91C89A9DA0098451E /* sphericityRollingSelector */ = {
+			isa = PBXGroup;
+			children = (
+				DDC429ED1C89A9DA0098451E /* AppDelegate.h */,
+				DDC429EE1C89A9DA0098451E /* AppDelegate.m */,
+				DDC429F01C89A9DA0098451E /* ViewController.h */,
+				DDC429F11C89A9DA0098451E /* ViewController.m */,
+				DDC429F31C89A9DA0098451E /* Main.storyboard */,
+				DDC429F61C89A9DA0098451E /* Assets.xcassets */,
+				DDC429F81C89A9DA0098451E /* LaunchScreen.storyboard */,
+				DDC429FB1C89A9DA0098451E /* Info.plist */,
+				DDC429EA1C89A9DA0098451E /* Supporting Files */,
+			);
+			path = sphericityRollingSelector;
+			sourceTree = "<group>";
+		};
+		DDC429EA1C89A9DA0098451E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDC429EB1C89A9DA0098451E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDC42A031C89A9DA0098451E /* sphericityRollingSelectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC42A041C89A9DA0098451E /* sphericityRollingSelectorTests.m */,
+				DDC42A061C89A9DA0098451E /* Info.plist */,
+			);
+			path = sphericityRollingSelectorTests;
+			sourceTree = "<group>";
+		};
+		DDC42A0E1C89A9DA0098451E /* sphericityRollingSelectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC42A0F1C89A9DA0098451E /* sphericityRollingSelectorUITests.m */,
+				DDC42A111C89A9DA0098451E /* Info.plist */,
+			);
+			path = sphericityRollingSelectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC429E61C89A9DA0098451E /* sphericityRollingSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC42A141C89A9DA0098451E /* Build configuration list for PBXNativeTarget "sphericityRollingSelector" */;
+			buildPhases = (
+				DDC429E31C89A9DA0098451E /* Sources */,
+				DDC429E41C89A9DA0098451E /* Frameworks */,
+				DDC429E51C89A9DA0098451E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sphericityRollingSelector;
+			productName = sphericityRollingSelector;
+			productReference = DDC429E71C89A9DA0098451E /* sphericityRollingSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDC429FF1C89A9DA0098451E /* sphericityRollingSelectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC42A171C89A9DA0098451E /* Build configuration list for PBXNativeTarget "sphericityRollingSelectorTests" */;
+			buildPhases = (
+				DDC429FC1C89A9DA0098451E /* Sources */,
+				DDC429FD1C89A9DA0098451E /* Frameworks */,
+				DDC429FE1C89A9DA0098451E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC42A021C89A9DA0098451E /* PBXTargetDependency */,
+			);
+			name = sphericityRollingSelectorTests;
+			productName = sphericityRollingSelectorTests;
+			productReference = DDC42A001C89A9DA0098451E /* sphericityRollingSelectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDC42A0A1C89A9DA0098451E /* sphericityRollingSelectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC42A1A1C89A9DA0098451E /* Build configuration list for PBXNativeTarget "sphericityRollingSelectorUITests" */;
+			buildPhases = (
+				DDC42A071C89A9DA0098451E /* Sources */,
+				DDC42A081C89A9DA0098451E /* Frameworks */,
+				DDC42A091C89A9DA0098451E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC42A0D1C89A9DA0098451E /* PBXTargetDependency */,
+			);
+			name = sphericityRollingSelectorUITests;
+			productName = sphericityRollingSelectorUITests;
+			productReference = DDC42A0B1C89A9DA0098451E /* sphericityRollingSelectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC429DF1C89A9DA0098451E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "谢鹏翔";
+				TargetAttributes = {
+					DDC429E61C89A9DA0098451E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DDC429FF1C89A9DA0098451E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DDC429E61C89A9DA0098451E;
+					};
+					DDC42A0A1C89A9DA0098451E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DDC429E61C89A9DA0098451E;
+					};
+				};
+			};
+			buildConfigurationList = DDC429E21C89A9DA0098451E /* Build configuration list for PBXProject "sphericityRollingSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC429DE1C89A9DA0098451E;
+			productRefGroup = DDC429E81C89A9DA0098451E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC429E61C89A9DA0098451E /* sphericityRollingSelector */,
+				DDC429FF1C89A9DA0098451E /* sphericityRollingSelectorTests */,
+				DDC42A0A1C89A9DA0098451E /* sphericityRollingSelectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC429E51C89A9DA0098451E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC429FA1C89A9DA0098451E /* LaunchScreen.storyboard in Resources */,
+				DDC429F71C89A9DA0098451E /* Assets.xcassets in Resources */,
+				DDC429F51C89A9DA0098451E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC429FE1C89A9DA0098451E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC42A091C89A9DA0098451E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC429E31C89A9DA0098451E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC429F21C89A9DA0098451E /* ViewController.m in Sources */,
+				DDC429EF1C89A9DA0098451E /* AppDelegate.m in Sources */,
+				DDC429EC1C89A9DA0098451E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC429FC1C89A9DA0098451E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC42A051C89A9DA0098451E /* sphericityRollingSelectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC42A071C89A9DA0098451E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC42A101C89A9DA0098451E /* sphericityRollingSelectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC42A021C89A9DA0098451E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC429E61C89A9DA0098451E /* sphericityRollingSelector */;
+			targetProxy = DDC42A011C89A9DA0098451E /* PBXContainerItemProxy */;
+		};
+		DDC42A0D1C89A9DA0098451E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC429E61C89A9DA0098451E /* sphericityRollingSelector */;
+			targetProxy = DDC42A0C1C89A9DA0098451E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDC429F31C89A9DA0098451E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC429F41C89A9DA0098451E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDC429F81C89A9DA0098451E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC429F91C89A9DA0098451E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC42A121C89A9DA0098451E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDC42A131C89A9DA0098451E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC42A151C89A9DA0098451E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sphericityRollingSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyoung.jyond.sphericityRollingSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDC42A161C89A9DA0098451E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sphericityRollingSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyoung.jyond.sphericityRollingSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDC42A181C89A9DA0098451E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sphericityRollingSelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyoung.jyond.sphericityRollingSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sphericityRollingSelector.app/sphericityRollingSelector";
+			};
+			name = Debug;
+		};
+		DDC42A191C89A9DA0098451E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sphericityRollingSelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyoung.jyond.sphericityRollingSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sphericityRollingSelector.app/sphericityRollingSelector";
+			};
+			name = Release;
+		};
+		DDC42A1B1C89A9DA0098451E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sphericityRollingSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyoung.jyond.sphericityRollingSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sphericityRollingSelector;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDC42A1C1C89A9DA0098451E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sphericityRollingSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyoung.jyond.sphericityRollingSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sphericityRollingSelector;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC429E21C89A9DA0098451E /* Build configuration list for PBXProject "sphericityRollingSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC42A121C89A9DA0098451E /* Debug */,
+				DDC42A131C89A9DA0098451E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC42A141C89A9DA0098451E /* Build configuration list for PBXNativeTarget "sphericityRollingSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC42A151C89A9DA0098451E /* Debug */,
+				DDC42A161C89A9DA0098451E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDC42A171C89A9DA0098451E /* Build configuration list for PBXNativeTarget "sphericityRollingSelectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC42A181C89A9DA0098451E /* Debug */,
+				DDC42A191C89A9DA0098451E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDC42A1A1C89A9DA0098451E /* Build configuration list for PBXNativeTarget "sphericityRollingSelectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC42A1B1C89A9DA0098451E /* Debug */,
+				DDC42A1C1C89A9DA0098451E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC429DF1C89A9DA0098451E /* Project object */;
+}
