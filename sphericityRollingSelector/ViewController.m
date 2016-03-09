@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "XieSphericityView.h"
+
 
 @interface ViewController ()
 
@@ -16,12 +18,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    XieSphericityView *sphericty = [[XieSphericityView alloc] initWithFrame:CGRectMake(50, 50, 300, 400)];
+    
+    [self.view addSubview:sphericty];
+    
+    [sphericty animationMoveCloseStart];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)initProperty
+{
+    NSMutableArray *dataArray = [NSMutableArray array];
+    
+    for (int i = 0; i < 10; i++) {
+        
+        NSString *str = [NSString stringWithFormat:@"文字-%d",i+1];
+        
+        NSDictionary *dic = @{@"text":str,
+                              @"upDown":@0,
+                              };
+        
+        NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithDictionary:dic];
+        
+        [dataArray addObject:dict];
+        
+    }
+    
 }
+
 
 @end

@@ -15,6 +15,7 @@
 		DDC429FA1C89A9DA0098451E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC429F81C89A9DA0098451E /* LaunchScreen.storyboard */; };
 		DDC42A051C89A9DA0098451E /* sphericityRollingSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC42A041C89A9DA0098451E /* sphericityRollingSelectorTests.m */; };
 		DDC42A101C89A9DA0098451E /* sphericityRollingSelectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC42A0F1C89A9DA0098451E /* sphericityRollingSelectorUITests.m */; };
+		DDC42A201C89B2B40098451E /* XieSphericityView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC42A1F1C89B2B40098451E /* XieSphericityView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DDC42A0B1C89A9DA0098451E /* sphericityRollingSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sphericityRollingSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC42A0F1C89A9DA0098451E /* sphericityRollingSelectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sphericityRollingSelectorUITests.m; sourceTree = "<group>"; };
 		DDC42A111C89A9DA0098451E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC42A1E1C89B2B40098451E /* XieSphericityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XieSphericityView.h; sourceTree = "<group>"; };
+		DDC42A1F1C89B2B40098451E /* XieSphericityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XieSphericityView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		DDC429E91C89A9DA0098451E /* sphericityRollingSelector */ = {
 			isa = PBXGroup;
 			children = (
+				DDC42A1D1C89B10F0098451E /* Resource */,
 				DDC429ED1C89A9DA0098451E /* AppDelegate.h */,
 				DDC429EE1C89A9DA0098451E /* AppDelegate.m */,
 				DDC429F01C89A9DA0098451E /* ViewController.h */,
@@ -138,6 +142,15 @@
 				DDC42A111C89A9DA0098451E /* Info.plist */,
 			);
 			path = sphericityRollingSelectorUITests;
+			sourceTree = "<group>";
+		};
+		DDC42A1D1C89B10F0098451E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DDC42A1E1C89B2B40098451E /* XieSphericityView.h */,
+				DDC42A1F1C89B2B40098451E /* XieSphericityView.m */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				DDC429F21C89A9DA0098451E /* ViewController.m in Sources */,
 				DDC429EF1C89A9DA0098451E /* AppDelegate.m in Sources */,
 				DDC429EC1C89A9DA0098451E /* main.m in Sources */,
+				DDC42A201C89B2B40098451E /* XieSphericityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sphericityRollingSelector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joyoung.jyond.sphericityRollingSelector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sphericityRollingSelector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joyoung.jyond.sphericityRollingSelector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +514,7 @@
 				DDC42A161C89A9DA0098451E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDC42A171C89A9DA0098451E /* Build configuration list for PBXNativeTarget "sphericityRollingSelectorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +523,7 @@
 				DDC42A191C89A9DA0098451E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDC42A1A1C89A9DA0098451E /* Build configuration list for PBXNativeTarget "sphericityRollingSelectorUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +532,7 @@
 				DDC42A1C1C89A9DA0098451E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
